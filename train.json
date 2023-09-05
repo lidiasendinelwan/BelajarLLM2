@@ -1,0 +1,752 @@
+[
+{"prompt": "Berikan daftar interface yang ada di Router A", "completion": "[Router A] show interfaces [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang semua interface di Router A", "completion": "[Router A] show interfaces [eoc]"},
+{"prompt": "Tunjukkan daftar semua interface yang tersedia di Router A", "completion": "[Router A] show interfaces [eoc]"},
+{"prompt": "Beri saya daftar semua antarmuka yang terhubung ke Router A", "completion": "[Router A] show interfaces [eoc]"},
+{"prompt": "Saya ingin melihat daftar interface di Router B", "completion": "[Router B] show interfaces [eoc]"},
+{"prompt": "Tolong berikan informasi tentang semua interface yang tersedia di Router B", "completion": "[Router B] show interfaces [eoc]"},
+{"prompt": "Tunjukkan saya daftar semua antarmuka di Router B", "completion": "[Router B] show interfaces [eoc]"},
+{"prompt": "Berikan daftar semua antarmuka yang terhubung ke Router C", "completion": "[Router C] show interfaces [eoc]"},
+{"prompt": "Saya memerlukan informasi tentang semua interface di Router C", "completion": "[Router C] show interfaces [eoc]"},
+{"prompt": "Tunjukkan semua interface yang tersedia di Router C", "completion": "[Router C] show interfaces [eoc]"},
+{"prompt": "Beri saya daftar semua antarmuka yang terhubung ke Router D", "completion": "[Router D] show interfaces [eoc]"},
+{"prompt": "Mohon informasi tentang semua interface di Router D", "completion": "[Router D] show interfaces [eoc]"},
+{"prompt": "Tolong tunjukkan daftar semua antarmuka di Router D", "completion": "[Router D] show interfaces [eoc]"},
+{"prompt": "Berikan daftar semua antarmuka yang terhubung ke Router internal", "completion": "[Router internal] show interfaces [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang semua interface di Router external", "completion": "[Router external] show interfaces [eoc]"},
+{"prompt": "Tolong tunjukkan daftar semua antarmuka di Router R1", "completion": "[Router R1] show interfaces [eoc]"},
+{"prompt": "Mohon berikan daftar semua antarmuka yang terhubung ke Router R2", "completion": "[Router R2] show interfaces [eoc]"},
+{"prompt": "Tolong berikan daftar interface untuk Router B Interface G0/0/0", "completion": "[Router B] show interface g0/0/0 [eoc]"},
+{"prompt": "Tunjukkan daftar interface yang tersedia di Router A Interface F0/0", "completion": "[Router A] show interface f0/0 [eoc]"},
+{"prompt": "Berikan daftar semua interface yang terhubung ke Router A Interface F0/1", "completion": "[Router A] show interface f0/1 [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang antarmuka F1/0 di Router A", "completion": "[Router A] show interface f1/0 [eoc]"},
+{"prompt": "Berikan daftar semua interface untuk Router B G0/1/1", "completion": "[Router B] show interface g0/1/1 [eoc]"},
+{"prompt": "Tolong tunjukkan daftar interface yang tersedia di Router B Interface G1/1/1", "completion": "[Router B] show interface g1/1/1 [eoc]"},
+{"prompt": "Beri saya daftar semua antarmuka yang tersedia di Router C F0/1", "completion": "[Router C] show interface f0/1 [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang interface G1/0/0 di Router R1", "completion": "[Router R1] show interface g1/0/0 [eoc]"},
+{"prompt": "Tunjukkan daftar semua interface yang terhubung ke Router R2 Interface G0/0/0", "completion": "[Router R2] show interface g0/0/0 [eoc]"},
+{"prompt": "Berikan daftar semua interface untuk Router R2 G0/0/1", "completion": "[Router R2] show interface g0/0/1 [eoc]"},
+{"prompt": "Tolong berikan daftar interface untuk Router R1 Interface F0/1", "completion": "[Router R1] show interface f0/1 [eoc]"},
+{"prompt": "Tolong ubah IP di Router C Interface X menjadi 192.168.1.1", "completion": "[Router C] configure terminal\ninterface X\nip address 192.168.1.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Ubah IP di Router A Interface G0/0/1 menjadi 10.0.0.1", "completion": "[Router A] configure terminal\ninterface G0/0/1\nip address 10.0.0.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Ubah IP di Router B Interface F0/1 menjadi 172.16.0.1", "completion": "[Router B] configure terminal\ninterface F0/1\nip address 172.16.0.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Tolong ubah IP di Internal Router Interface G1/0/0 menjadi 192.168.2.1", "completion": "[Internal Router] configure terminal\ninterface G1/0/0\nip address 192.168.2.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Saya butuh bantuan untuk mengubah IP di External Router Interface F1/0 menjadi 10.1.1.1", "completion": "[External Router] configure terminal\ninterface F1/0\nip address 10.1.1.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Mohon bantu untuk mengganti IP di R1 Interface G0/0/0 menjadi 192.168.3.1", "completion": "[Router R1] configure terminal\ninterface G0/0/0\nip address 192.168.3.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Mohon bantu untuk mengubah IP di Router D Interface F0/1 menjadi 172.16.10.1", "completion": "[Router D] configure terminal\ninterface F0/1\nip address 172.16.10.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Tolong ubah IP di Router E Interface G0/0 menjadi 192.168.5.1", "completion": "[Router E] configure terminal\ninterface G0/0\nip address 192.168.5.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Berikan bantuan untuk mengganti IP di Router F Interface F1/0 menjadi 10.1.2.1", "completion": "[Router F] configure terminal\ninterface F1/0\nip address 10.1.2.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Ubah IP di Router G Interface G0/0/1 menjadi 10.0.1.1", "completion": "[Router G] configure terminal\ninterface G0/0/1\nip address 10.0.1.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Mohon bantu untuk mengubah IP di R2 Interface F0/0 menjadi 192.168.4.1", "completion": "[Router R2] configure terminal\ninterface F0/0\nip address 192.168.4.1 255.255.255.0\nend [eoc]"},
+{"prompt": "Tolong tambahkan kunci enkripsi ke Router D", "completion": "[Router D] configure terminal\ncrypto key generate rsa\nend [eoc]"},
+{"prompt": "Mohon tambahkan kunci enkripsi ke Router E", "completion": "[Router E] configure terminal\ncrypto key generate rsa\nend [eoc]"},
+{"prompt": "Tolong buat kunci enkripsi di Router F", "completion": "[Router F] configure terminal\ncrypto key generate rsa\nend [eoc]"},
+{"prompt": "Mohon tambahkan kunci enkripsi ke Router G", "completion": "[Router G] configure terminal\ncrypto key generate rsa\nend [eoc]"},
+{"prompt": "Tolong aktifkan enkripsi di Router H", "completion": "[Router H] configure terminal\nservice password-encryption\nend [eoc]"},
+{"prompt": "Mohon bantu untuk menambahkan kunci enkripsi di R1", "completion": "[Router R1] configure terminal\ncrypto key generate rsa\nend [eoc]"},
+{"prompt": "Saya ingin melihat daftar semua antarmuka di Router D", "completion": "[Router D] show interfaces [eoc]"},
+{"prompt": "Tunjukkan semua interface yang terhubung ke Router external", "completion": "[Router external] show interfaces [eoc]"},
+{"prompt": "Beri saya daftar semua antarmuka yang terhubung ke Router internal", "completion": "[Router internal] show interfaces [eoc]"},
+{"prompt": "Bagaimana cara mengkonfigurasi OSPF pada Router A?", "completion": "[Router A] router ospf 1\nnetwork 10.0.0.0 0.255.255.255 area 0\nend [eoc]"},
+{"prompt": "Berikan contoh penggunaan perintah 'ping' pada Router B", "completion": "[Router B] ping 10.0.0.1 [eoc]"},
+{"prompt": "Bagaimana cara mengubah hostname pada Router C?", "completion": "[Router C] configure terminal\nhostname NewHostName\nend [eoc]"},
+{"prompt": "Saya ingin mengecek routing table pada Router A", "completion": "[Router A] show ip route [eoc]"},
+{"prompt": "Bagaimana cara mengkonfigurasi VLAN pada Switch A?", "completion": "[Switch A] vlan 10\nname Sales\nend [eoc]"},
+{"prompt": "Tolong buatkan ACL untuk memblokir akses ke situs web tertentu pada Router D", "completion": "[Router D] configure terminal\naccess-list 101 deny tcp any host 192.168.1.2 eq 80\naccess-list 101 permit ip any any\ninterface gigabitEthernet 0/0\nip access-group 101 in\nend [eoc]"},
+{"prompt": "Bagaimana cara menampilkan port yang sedang aktif pada Switch B?", "completion": "[Switch B] show interface status [eoc]"},
+{"prompt": "Saya ingin mengkonfigurasi DHCP pada Router internal", "completion": "[Internal Router] configure terminal\ndhcp pool InternalPool\nnetwork 192.168.0.0 255.255.255.0\ndefault-router 192.168.0.1\nend [eoc]"},
+{"prompt": "Bagaimana cara menampilkan MAC address table pada Switch C?", "completion": "[Switch C] show mac-address-table [eoc]"},
+{"prompt": "Saya ingin mengkonfigurasi NAT pada Router external", "completion": "[Router external] configure terminal\ninterface gigabitEthernet 0/0\nip nat outside\ninterface gigabitEthernet 0/1\nip nat inside\nip nat inside source list 1 interface gigabitEthernet 0/0 overload\naccess-list 1 permit 192.168.0.0 0.0.255.255\nend [eoc]"},
+{"prompt": "Bagaimana cara menampilkan log yang tersimpan pada Router R1?", "completion": "[Router R1] show logging [eoc]"},
+{"prompt": "Saya ingin memeriksa status koneksi pada Router R2", "completion": "[Router R2] show interfaces brief [eoc]"},
+{"prompt": "Bagaimana cara mengkonfigurasi trunking pada Switch D?", "completion": "[Switch D] interface gigabitEthernet 0/0\nswitchport mode trunk\nend [eoc]"},
+{"prompt": "Tolong buatkan static route pada Router internal untuk mengakses subnet 172.16.0.0/24 melalui Router A", "completion": "[Internal Router] ip route 172.16.0.0 255.255.255.0 10.0.0.2 [eoc]"},
+{"prompt": "Bagaimana cara menghapus VLAN yang tidak dibutuhkan pada Switch E?", "completion": "[Switch E] configure terminal\nno vlan 10\nend [eoc]"},
+{"prompt": "Saya ingin menampilkan informasi tentang status port pada Switch F", "completion": "[Switch F] show interface gigabitEthernet 0/1 [eoc]"},
+{"prompt": "Tunjukkan daftar konfigurasi yang ada di Router A", "completion": "[Router A] show running-config [eoc]"},
+{"prompt": "Beri saya daftar semua konfigurasi di Router A", "completion": "[Router A] show running-config [eoc]"},
+{"prompt": "Saya ingin melihat konfigurasi di Router B", "completion": "[Router B] show running-config [eoc]"},
+{"prompt": "Tolong berikan daftar semua konfigurasi di Router B", "completion": "[Router B] show running-config [eoc]"},
+{"prompt": "Berikan daftar semua konfigurasi di Router C", "completion": "[Router C] show running-config [eoc]"},
+{"prompt": "Saya memerlukan informasi tentang konfigurasi di Router C", "completion": "[Router C] show running-config [eoc]"},
+{"prompt": "Tunjukkan semua konfigurasi di Router D", "completion": "[Router D] show running-config [eoc]"},
+{"prompt": "Berikan daftar semua konfigurasi di Router internal", "completion": "[Router internal] show running-config [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang semua konfigurasi di Router external", "completion": "[Router external] show running-config [eoc]"},
+{"prompt": "Tolong tunjukkan daftar semua konfigurasi di Router R1", "completion": "[Router R1] show running-config [eoc]"},
+{"prompt": "Mohon berikan daftar semua konfigurasi di Router R2", "completion": "[Router R2] show running-config [eoc]"},
+{"prompt": "Tunjukkan daftar konfigurasi untuk Router B Interface G0/0/0", "completion": "[Router B] show running-config interface g0/0/0 [eoc]"},
+{"prompt": "Berikan konfigurasi untuk Router A Interface F0/0", "completion": "[Router A] show running-config interface f0/0 [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang konfigurasi di Router A Interface F0/1", "completion": "[Router A] show running-config interface f0/1 [eoc]"},
+{"prompt": "Tolong berikan konfigurasi untuk interface F1/0 di Router A", "completion": "[Router A] show running-config interface f1/0 [eoc]"},
+{"prompt": "Berikan konfigurasi untuk Router B G0/1/1", "completion": "[Router B] show running-config interface g0/1/1 [eoc]"},
+{"prompt": "Tunjukkan daftar konfigurasi yang terhubung ke Router B Interface G1/1/1", "completion": "[Router B] show running-config interface g1/1/1 [eoc]"},
+{"prompt": "Beri saya konfigurasi semua antarmuka yang tersedia di Router C F0/1", "completion": "[Router C] show running-config interface f0/1 [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang konfigurasi di interface G1/0/0 di Router R1", "completion": "[Router R1] show running-config interface g1/0/0 [eoc]"},
+{"prompt": "Tunjukkan daftar konfigurasi semua interface yang terhubung ke Router R2 Interface G0/0/0", "completion": "[Router R2] show running-config interface g0/0/0 [eoc]"},
+{"prompt": "Berikan konfigurasi untuk semua interface pada Router R2 G0/0/1", "completion": "[Router R2] show running-config interface g0/0/1 [eoc]"},
+{"prompt": "Beri saya daftar konfigurasi di Router D yang terkait dengan VLAN 10", "completion": "[Router D] show running-config | include vlan 10 [eoc]"},
+{"prompt": "Tunjukkan konfigurasi yang berhubungan dengan OSPF di Router A", "completion": "[Router A] show running-config | include ospf [eoc]"},
+{"prompt": "Beri saya daftar semua konfigurasi yang terkait dengan NAT di Router B", "completion": "[Router B] show running-config | include nat [eoc]"},
+{"prompt": "Saya ingin melihat daftar konfigurasi yang terkait dengan DHCP di Router C", "completion": "[Router C] show running-config | include dhcp [eoc]"},
+{"prompt": "Tolong tunjukkan daftar semua konfigurasi yang terkait dengan firewall di Router internal", "completion": "[Router internal] show running-config | include firewall [eoc]"},
+{"prompt": "Berikan konfigurasi untuk interface G0/0 di Router external", "completion": "[Router external] show running-config interface g0/0 [eoc]"},
+{"prompt": "Saya memerlukan informasi tentang konfigurasi VRF di Router R1", "completion": "[Router R1] show running-config | include vrf [eoc]"},
+{"prompt": "Tunjukkan daftar konfigurasi terkait dengan access-list di Router R2", "completion": "[Router R2] show running-config | include access-list [eoc]"},
+{"prompt": "Berikan daftar semua konfigurasi OSPF yang terkait dengan area 0 di Router A", "completion": "[Router A] show running-config | include ospf.*area 0 [eoc]"},
+{"prompt": "Saya ingin melihat konfigurasi NAT yang terkait dengan subnet 192.168.1.0/24 di Router B", "completion": "[Router B] show running-config | include nat.*192.168.1.0/24 [eoc]"},
+{"prompt": "Tolong berikan daftar konfigurasi BGP di Router C", "completion": "[Router C] show running-config | include bgp [eoc]"},
+{"prompt": "Saya membutuhkan informasi tentang konfigurasi QoS di Router internal", "completion": "[Router internal] show running-config | include qos [eoc]"},
+{"prompt": "Tunjukkan daftar konfigurasi yang terkait dengan MPLS di Router external", "completion": "[Router external] show running-config | include mpls [eoc]"},
+{"prompt": "Berikan konfigurasi untuk interface F0/1 di Router R1", "completion": "[Router R1] show running-config interface f0/1 [eoc]"},
+{"prompt": "Saya memerlukan informasi tentang konfigurasi VPC di Router R2", "completion": "[Router R2] show running-config | include vpc [eoc]"},
+{"prompt": "Tolong tunjukkan daftar konfigurasi yang terkait dengan IPsec di Router A", "completion": "[Router A] show running-config | include ipsec [eoc]"},
+{"prompt": "Tolong atur VLAN 10 pada Switch A dan hubungkan ke port GigabitEthernet1/0/5", "completion": "[Switch A] configure terminal\nvlan 10\nname VLAN10\ninterface GigabitEthernet1/0/5\nswitchport mode access\nswitchport access vlan 10\nend [eoc]"},
+{"prompt": "Tambahkan static route pada Router D untuk subnet 192.168.10.0/24 melalui Router B dengan metric 10", "completion": "[Router D] configure terminal\nip route 192.168.10.0 255.255.255.0 Router B 10\nend [eoc]"},
+{"prompt": "Tolong tambahkan user baru bernama 'john' dengan password 'password123' pada server MySQL", "completion": "CREATE USER 'john'@'localhost' IDENTIFIED BY 'password123';\nGRANT ALL PRIVILEGES ON * . * TO 'john'@'localhost';\nFLUSH PRIVILEGES; [eoc]"},
+{"prompt": "Tolong tambahkan firewall rule pada server web untuk memblokir akses dari IP address 192.168.1.100", "completion": "sudo ufw deny from 192.168.1.100 [eoc]"},
+{"prompt": "Tolong buat konfigurasi NAT pada Router A untuk mengakses jaringan internal (192.168.1.0/24) dari internet", "completion": "[Router A] configure terminal\ninterface GigabitEthernet0/0/1\nip nat outside\nexit\ninterface GigabitEthernet0/0/0\nip nat inside\nexit\nip nat inside source list 1 interface GigabitEthernet0/0/1 overload\naccess-list 1 permit 192.168.1.0 0.0.0.255\nend [eoc]"},
+{
+    "prompt": "Buat route static menuju network 192.168.1.0 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0 di Router A",
+    "completion": "[Router A] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan skrip konfigurasi yang akan menetapkan route statis pada Router A untuk mengarahkan lalu lintas ke jaringan 192.168.1.0 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan routing statis di Router A untuk mengarahkan lalu lintas ke jaringan 192.168.1.0 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan konfigurasi perutean yang tepat pada Router A untuk memungkinkan lalu lintas menuju jaringan 192.168.1.0 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Tulis skrip perutean yang diperlukan untuk mengarahkan semua paket menuju jaringan 192.168.1.0 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0 di Router A",
+    "completion": "[Router A] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A dan perkenalkan network 192.168.2.0, 192.168.3.0",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi pada Router A untuk mengaktifkan protokol RIP versi 2 dan perkenalkan network 192.168.2.0 dan 192.168.3.0 ke dalam perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A dan pastikan network 192.168.2.0 dan 192.168.3.0 dikenali oleh perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan langkah-langkah untuk mengaktifkan protokol RIP versi 2 pada Router A dan pastikan network 192.168.2.0 dan 192.168.3.0 dapat diakses melalui perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A sekarang juga dan segera perkenalkan network 192.168.2.0 dan 192.168.3.0 ke dalam tabel perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 dengan IP address 192.168.0.1 subnet 255.255.255.0 pada interface g0/0 di Router A",
+    "completion": "[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router A dan berikan IP address 192.168.0.1 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 11 pada interface g0/0 di Router A dengan IP address 192.168.0.1 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router A dan tetapkan IP address 192.168.0.1 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router A dan pastikan menggunakan IP address 192.168.0.1 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 dengan IP address 192.168.1.1 subnet 255.255.255.0 pada interface g0/0 di Router A",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router A dan berikan IP address 192.168.1.1 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 22 pada interface g0/0 di Router A dengan IP address 192.168.1.1 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router A dan tetapkan IP address 192.168.1.1 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router A dan pastikan menggunakan IP address 192.168.1.1 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 dengan IP address 192.168.2.1 subnet 255.255.255.0 pada interface g0/0 di Router A",
+    "completion": "[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router A dan berikan IP address 192.168.2.1 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 33 pada interface g0/0 di Router A dengan IP address 192.168.2.1 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router A dan tetapkan IP address 192.168.2.1 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router A dan pastikan menggunakan IP address 192.168.2.1 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Buat route static menuju network 192.168.0.1 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0 di Router B",
+    "completion": "[Router B] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan skrip konfigurasi yang akan menetapkan route statis pada Router B untuk mengarahkan lalu lintas ke jaringan 192.168.0.1 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0",
+    "completion": "[Router B] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan routing statis di Router B untuk mengarahkan lalu lintas ke jaringan 192.168.0.1 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0",
+    "completion": "[Router B] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan konfigurasi perutean yang tepat pada Router B untuk memungkinkan lalu lintas menuju jaringan 192.168.0.1 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0",
+    "completion": "[Router B] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Tulis skrip perutean yang diperlukan untuk mengarahkan semua paket menuju jaringan 192.168.0.1 dengan subnet mask 255.255.255.0 melalui interface g/0/0/0 di Router B",
+    "completion": "[Router B] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router B dan perkenalkan network 192.168.1.0, 192.168.2.0",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi pada Router B untuk mengaktifkan protokol RIP versi 2 dan perkenalkan network 192.168.1.0 dan 192.168.2.0 ke dalam perutean",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router B dan pastikan network 192.168.1.0 dan 192.168.2.0 dikenali oleh perutean",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan langkah-langkah untuk mengaktifkan protokol RIP versi 2 pada Router B dan pastikan network 192.168.1.0 dan 192.168.2.0 dapat diakses melalui perutean",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router B sekarang juga dan segera perkenalkan network 192.168.1.0 dan 192.168.2.0 ke dalam tabel perutean",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 dengan IP address 192.168.0.2 subnet 255.255.255.0 pada interface g0/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 11 pada interface g0/0 di Router B dengan IP address 192.168.0.2 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router B dan berikan IP address 192.168.0.2 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router B dan tetapkan IP address 192.168.0.2 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router B dan pastikan menggunakan IP address 192.168.0.2 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 dengan IP address 192.168.2.1 subnet 255.255.255.0 pada interface g0/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router B dan berikan IP address 192.168.2.1 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 22 pada interface g0/0 di Router B dengan IP address 192.168.2.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router B dan tetapkan IP address 192.168.2.1 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router B dan pastikan menggunakan IP address 192.168.2.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Buat route static menuju network 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/0 di Router A",
+    "completion": "[Router A] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan skrip konfigurasi yang akan menetapkan route statis pada Router A untuk mengarahkan lalu lintas ke jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan routing statis di Router A untuk mengarahkan lalu lintas ke jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan konfigurasi perutean yang tepat pada Router A untuk memungkinkan lalu lintas menuju jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]"
+},
+{
+    "prompt": "Tulis skrip perutean yang diperlukan untuk mengarahkan semua paket menuju jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/0 di Router A",
+    "completion": "[Router A] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A dan perkenalkan network 192.168.0.1, 192.168.2.0",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi pada Router A untuk mengaktifkan protokol RIP versi 2 dan perkenalkan network 192.168.0.1 dan 192.168.2.0 ke dalam perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A dan pastikan network 192.168.0.1 dan 192.168.2.0 dikenali oleh perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan langkah-langkah untuk mengaktifkan protokol RIP versi 2 pada Router A dan pastikan network 192.168.0.1 dan 192.168.2.0 dapat diakses melalui perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A sekarang juga dan segera perkenalkan network 192.168.0.1 dan 192.168.2.0 ke dalam tabel perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]"
+},
+{
+    "prompt": "Buat route static menuju network 192.168.2.0 dengan subnet mask 255.255.255.0 melalui interface g/1/1/0 di Router A",
+    "completion": "[Router A] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan skrip konfigurasi yang akan menetapkan route statis pada Router A untuk mengarahkan lalu lintas ke jaringan 192.168.2.0 dengan subnet mask 255.255.255.0 melalui interface g/1/1/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan routing statis di Router A untuk mengarahkan lalu lintas ke jaringan 192.168.2.0 dengan subnet mask 255.255.255.0 melalui interface g/1/1/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]"
+},
+{
+    "prompt": "Ciptakan konfigurasi perutean yang tepat pada Router A untuk memungkinkan lalu lintas menuju jaringan 192.168.2.0 dengan subnet mask 255.255.255.0 melalui interface g/1/1/0",
+    "completion": "[Router A] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]"
+},
+{
+    "prompt": "Tulis skrip perutean yang diperlukan untuk mengarahkan semua paket menuju jaringan 192.168.2.0 dengan subnet mask 255.255.255.0 melalui interface g/1/1/0 di Router A",
+    "completion": "[Router A] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A dan perkenalkan network 192.168.0.1, 192.168.3.0",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan versi 2 dari protokol RIP di Router A dan tambahkan jaringan 192.168.0.1 dan 192.168.3.0 ke dalam konfigurasi.",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Menambahkan  jaringan dengan alamat IP 192.168.0.1 dan 192.168.3.0 ke dalam konfigurasi lalu aktifkan protokol RIP versi 2 pada Router A",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Tambahkan jaringan 192.168.0.1 dan 192.168.3.0 ke dalam konfigurasi, kemudian aktifkan protokol RIP versi 2 pada Router A",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan langkah-langkah untuk mengaktifkan protokol RIP versi 2 pada Router A dan pastikan network 192.168.0.1 dan 192.168.3.0 dapat diakses melalui perutean",
+    "completion": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router B dan perkenalkan network 192.168.1.0, 192.168.3.0",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Pada Router A, tambahkan network 192.168.0.1 serta 192.168.3.0 dan aktifkan protokol RIP versi 2",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Tambahkan jaringan 192.168.0.1 dan 192.168.3.0 ke dalam konfigurasi Router A, serta aktifkan protokol RIP versi 2.",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan protokol RIP versi 2 pada Router A, serta pastikan jaringan 192.168.0.1 serta 192.168.3.0 sudah dikenali pada konfigurasi perutean",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan pengaktifan protokol RIP versi 2 pada Router A dan pastikan bahwa jaringan 192.168.0.1 dan 192.168.3.0 telah terdaftar dalam konfigurasi routing",
+    "completion": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 dengan IP address 192.168.0.1 subnet 255.255.255.0 pada interface g0/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Mengaktifkan VLAN 33 pada antarmuka g0/0 di Router B dengan alamat IP 192.168.0.1 dan subnet 255.255.255.0.",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 33 pada interface g0/0 di Router B dengan IP address 192.168.0.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan VLAN 33 pada antarmuka g0/0 di Router B dengan alamat IP 192.168.0.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan konfigurasi VLAN 33 pada interface g0/0 di Router B dengan alamat IP 192.168.0.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Buat route static menuju network 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/1 di Router B",
+    "completion": "[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/1\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi yang menetapkan route statis pada Router B untuk mengarahkan lalu lintas ke jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/1",
+    "completion": "[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/1\n end [eoc]"
+},
+{
+    "prompt": "Lakukan pengaturan konfigurasi pada Router B untuk mengonfigurasi rute statis yang mengarahkan lalu lintas ke jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui antarmuka g/1/0/1.",
+    "completion": "[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/1\n end [eoc]"
+},
+{
+    "prompt": "Tulis skrip perutean yang diperlukan untuk mengarahkan semua paket menuju jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui interface g/1/0/1 di Router B",
+    "completion": "[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/1\n end [eoc]"
+},
+{
+    "prompt": "Tuliskan skrip rute yang diperlukan untuk mengalihkan semua paket ke jaringan 192.168.3.0 dengan subnet mask 255.255.255.0 melalui antarmuka g/1/0/1 di Router B.",
+    "completion": "[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/1\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 dengan IP address 192.168.3.0 subnet 255.255.255.0 pada interface g1/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g1/0.33\nencapsulation dot1q 33\nip address 192.168.3.0 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 33 pada antarmuka g1/0 di Router B dengan IP address 192.168.3.0 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g1/0.33\nencapsulation dot1q 33\nip address 192.168.3.0 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan VLAN 33 pada interface Router B g1/0 dengan alamat IP 192.168.3.0 dan subnet mask 255.255.255.0.",
+    "completion": "[Router B] configure terminal\nint g1/0.33\nencapsulation dot1q 33\nip address 192.168.3.0 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan konfigurasi VLAN 33 pada interface g1/0 di Router B dengan alamat IP 192.168.3.0 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g1/0.33\nencapsulation dot1q 33\nip address 192.168.3.0 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g1/0 di Router B dan pastikan menggunakan IP address 192.168.3.0 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g1/0.33\nencapsulation dot1q 33\nip address 192.168.3.0 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 dengan IP address 192.168.2.2 subnet 255.255.255.0 pada interface g0/1 di Router A",
+    "completion": "[Router A] configure terminal\nint g0/1.11\nencapsulation dot1q 11\nip address 192.168.2.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 11 pada interface g0/1 di Router A dengan IP address 192.168.2.2 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/1.11\nencapsulation dot1q 11\nip address 192.168.2.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/1 di Router A dan berikan IP address 192.168.2.2 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/1.11\nencapsulation dot1q 11\nip address 192.168.2.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/1 di Router A dan tetapkan IP address 192.168.2.2 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/1.11\nencapsulation dot1q 11\nip address 192.168.2.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/1 di Router A dan pastikan menggunakan IP address 192.168.2.2 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/1.11\nencapsulation dot1q 11\nip address 192.168.2.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 dengan IP address 192.168.1.1 subnet 255.255.255.0 pada interface g0/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 33 pada antarmuka g0/0 di Router B dengan IP address 192.168.1.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Konfigurasikan VLAN 33 pada interface Router B g0/0 dengan alamat IP 192.168.1.1 dan subnet mask 255.255.255.0.",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan konfigurasi VLAN 33 pada interface g0/0 di Router B dengan alamat IP 192.168.1.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router B dan pastikan menggunakan IP address 192.168.1.1 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.1.1 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 dengan IP address 192.168.0.3 subnet 255.255.255.0 pada interface g0/1 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/1.22\nencapsulation dot1q 22\nip address 192.168.0.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 22 pada interface g0/1 di Router B dengan IP address 192.168.0.3 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/1.22\nencapsulation dot1q 22\nip address 192.168.0.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/1 di Router B dan berikan IP address 192.168.0.3 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/1.22\nencapsulation dot1q 22\nip address 192.168.0.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/1 di Router B dan tetapkan IP address 192.168.0.3 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/1.22\nencapsulation dot1q 22\nip address 192.168.0.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/1 di Router B dan pastikan menggunakan IP address 192.168.0.3 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/1.22\nencapsulation dot1q 22\nip address 192.168.0.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 dengan IP address 192.168.2.3 subnet 255.255.255.0 pada interface g0/0 di Router A",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 2 pada interface g0/0 di Router A dan berikan IP address 192.168.2.3 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 22 pada interface g0/0 di Router A dengan IP address 192.168.2.3 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router A dan tetapkan IP address 192.168.2.3 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g0/0 di Router A dan pastikan menggunakan IP address 192.168.2.3 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.2.3 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 dengan IP address 192.168.2.4 subnet 255.255.255.0 pada interface g1/1 di Router A",
+    "completion": "[Router A] configure terminal\nint g1/1.22\nencapsulation dot1q 22\nip address 192.168.2.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 22 pada interface g1/1 di Router A dengan IP address 192.168.2.4 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.22\nencapsulation dot1q 22\nip address 192.168.2.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g1/1 di Router A dan berikan IP address 192.168.2.4 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.22\nencapsulation dot1q 22\nip address 192.168.2.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g1/1 di Router A dan tetapkan IP address 192.168.2.4 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.22\nencapsulation dot1q 22\nip address 192.168.2.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 22 pada interface g1/1 di Router A dan pastikan menggunakan IP address 192.168.2.4 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.22\nencapsulation dot1q 22\nip address 192.168.2.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 dengan IP address 192.168.0.4 subnet 255.255.255.0 pada interface g0/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router B dan berikan IP address 192.168.0.4 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 33 pada interface g0/0 di Router B dengan IP address 192.168.0.4 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router B dan tetapkan IP address 192.168.0.4 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 33 pada interface g0/0 di Router B dan pastikan menggunakan IP address 192.168.0.4 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.0.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 dengan IP address 192.168.1.2 subnet 255.255.255.0 pada interface g0/0 di Router B",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.1.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router B dan berikan IP address 192.168.1.2 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.1.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 11 pada interface g0/0 di Router B dengan IP address 192.168.1.2 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.1.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router B dan tetapkan IP address 192.168.1.2 dengan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.1.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g0/0 di Router B dan pastikan menggunakan IP address 192.168.1.2 dan subnet 255.255.255.0",
+    "completion": "[Router B] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.1.2 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 dengan IP address 192.168.1.4 subnet 255.255.255.0 pada interface g1/1 di Router A",
+    "completion": "[Router A] configure terminal\nint g1/1.11\nencapsulation dot1q 11\nip address 192.168.1.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g1/1 di Router A dan berikan IP address 192.168.1.4 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.11\nencapsulation dot1q 11\nip address 192.168.1.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Lakukan konfigurasi VLAN 11 pada interface g1/1 di Router A dengan IP address 192.168.1.4 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.11\nencapsulation dot1q 11\nip address 192.168.1.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g1/1 di Router A dan tetapkan IP address 192.168.1.4 dengan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.11\nencapsulation dot1q 11\nip address 192.168.1.4 255.255.255.0\n end [eoc]"
+},
+{
+    "prompt": "Aktifkan VLAN 11 pada interface g1/1 di Router A dan pastikan menggunakan IP address 192.168.1.4 dan subnet 255.255.255.0",
+    "completion": "[Router A] configure terminal\nint g1/1.11\nencapsulation dot1q 11\nip address 192.168.1.4 255.255.255.0\n end [eoc]"
+},
+    {
+        "commands": "[Router Z] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]",
+        "bot_reply": "Untuk membuat rute pada Router Z melalui interface g/0/0/0 menuju jaringan lokal dengan IP 192.168.1.0, subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router Z terlebih dahulu dengan menggunakan perintah\n[Router Z] configure terminal\nLalu dengan perintah ip route tambahkan alamat IP tujuan, subnet mask, dan interface. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router Z] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\nend [eoc]"
+    },
+    {
+        "commands": "[Router I] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]",
+        "bot_reply": "Untuk mengkonfigurasi rute pada Router I untuk jaringan lokal dengan alamat IP 192.168.1.0 dan subnet mask 255.255.255.0, Anda harus mulai dengan mengakses mode konfigurasi menggunakan perintah:\n[Router I] configure terminal\nSelanjutnya, tambahkan alamat IP tujuan, subnet mask, dan antarmuka menggunakan perintah `ip route`. Urutan perintah diakhiri dengan yang berikut:\nip route 192.168.1.0 255.255.255.0 g0/0/0\nend [eoc]\nAnda dapat menjalankan serangkaian perintah seperti yang disebutkan di atas."
+    },
+    {
+        "commands": "[Router X] configure terminal\nip route 192.168.1.0 255.255.255.0 g0/0/0\n end [eoc]",
+        "bot_reply": "Untuk mengatur rute pada Router X untuk jaringan lokal dengan alamat IP 192.168.1.0 dan subnet mask 255.255.255.0, langkah pertama adalah masuk ke mode konfigurasi menggunakan perintah berikut:\n[Router X] configure terminal\nSelanjutnya, gunakan perintah `ip route` untuk menambahkan alamat IP tujuan, subnet mask, dan antarmuka. Akhir dari urutan perintah adalah sebagai berikut:\nip route 192.168.1.0 255.255.255.0 g0/0/0\nend [eoc]Anda dapat melaksanakan rangkaian perintah sebagaimana dijelaskan di atas."
+    },
+    {
+        "commands": "[Router C] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router C dan pendaftaran alamat IP 192.168.2.0 dan 192.168.3.0 pada perutean, perlu dinyatakan ppemanggilan konfigurasi Router C terlebih dahulu dengan perintah\n[Router C] configure terminal\nLalu tambahkan perintah router rip dan version 2 untuk menandakan akan digunakan protokol RIP versi 2\nrouter rip\nversion 2\nSetelah itu cantumkan alamat IP asal dan alamat IP tujuan dengan menggunakan perintah network. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router C] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router K] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router K dan mendaftarkan alamat IP 192.168.2.0 dan 192.168.3.0 pada perutean, langkah awal adalah memasuki mode konfigurasi pada Router K dengan perintah:\n[Router K] configure terminal\nSetelah itu, gunakan perintah `router rip` dan `version 2` untuk menandakan bahwa Anda akan menggunakan protokol RIP versi 2:\nrouter rip\nversion 2\nSelanjutnya, tambahkan alamat IP sumber dan tujuan dengan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Rangkaian perintah dapat dijalankan sebagai berikut:\n[Router K] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\nend [eoc]\nAnda dapat melaksanakan rangkaian perintah seperti di atas."
+    },
+    {
+        "commands": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router A dan memasukkan alamat IP 192.168.2.0 dan 192.168.3.0 pada tabel routing, langkah awal adalah mengakses mode konfigurasi pada Router A menggunakan perintah berikut:\n[Router A] configure terminal\nAfterward, utilize the `router rip` and `version 2` commands to specify the use of RIP protocol version 2:\nrouter rip\nversion 2\nSelanjutnya, gabungkan alamat IP sumber dan tujuan menggunakan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Perintah-perintah tersebut dapat dijalankan sebagai berikut:\n[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.2.0\nnetwork 192.168.3.0\nend [eoc]\nAnda dapat menerapkan urutan perintah seperti yang ditunjukkan di atas."
+    },
+    {
+        "commands": "[Router K] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan VLAN 11 pada Router K dengan interface g0/0, alamat IP 192.168.0.1, dan subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router K terlebih dahulu dengan menggunakan perintah\n[Router K] configure terminal\nLalu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask dapat digunakan perintah int, encapsulation, dan ip address\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router K] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router G] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan VLAN 11 pada Router G dengan alamat IP 192.168.0.1, interface g0/0, dan subnet mask 255.255.255.0  perlu dilakukan pemanggilan konfigurasi Router G terlebih dahulu dengan menggunakan perintah\n[Router G] configure terminal\nSetelah itu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask dapat digunakan perintah int, encapsulation, dan ip address\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah adalah sebagai berikut:\n[Router G] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Anda dapat mengaktifkan VLAN 11 pada Router A dengan alamat IP 192.168.0.1, interface g0/0, dan subnet mask 255.255.255.0 dengan langkah pertama melakukan pemanggilan konfigurasi Router A terlebih dahulu dengan menggunakan perintah\n[Router A] configure terminal\nLalu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask gunakan perintah int, encapsulation, dan ip address\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Perintah lengkapnya, yaitu:\n[Router A] configure terminal\nint g0/0.11\nencapsulation dot1q 11\nip address 192.168.0.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router G] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan VLAN 22 pada Router G dengan alamat IP 192.168.1.1, interface g0/0, dan subnet mask 255.255.255.0  perlu dilakukan pemanggilan konfigurasi Router G terlebih dahulu dengan menggunakan perintah\n[Router G] configure terminal\nSetelah itu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask dapat digunakan perintah int, encapsulation, dan ip address\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah adalah sebagai berikut:\n[Router G] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router O] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan VLAN 22 pada Router O dengan interface g0/0, alamat IP 192.168.2.1, dan subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router O terlebih dahulu dengan menggunakan perintah\n[Router O] configure terminal\nLalu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask dapat digunakan perintah int, encapsulation, dan ip address\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router O] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router I] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Anda dapat mengaktifkan VLAN 22 pada Router I dengan alamat IP 192.168.1.1, interface g0/0, dan subnet mask 255.255.255.0 dengan langkah pertama melakukan pemanggilan konfigurasi Router I terlebih dahulu dengan menggunakan perintah\n[Router I] configure terminal\nLalu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask gunakan perintah int, encapsulation, dan ip address\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Perintah lengkapnya, yaitu:\n[Router I] configure terminal\nint g0/0.22\nencapsulation dot1q 22\nip address 192.168.1.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan VLAN 33 pada Router A dengan alamat IP 192.168.2.1, interface g0/0, dan subnet mask 255.255.255.0  perlu dilakukan pemanggilan konfigurasi Router A terlebih dahulu dengan menggunakan perintah\n[Router A] configure terminal\nSetelah itu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask dapat digunakan perintah int, encapsulation, dan ip address\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah adalah sebagai berikut:\n[Router A] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router I] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan VLAN 33 pada Router I dengan interface g0/0, alamat IP 192.168.2.1, dan subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router I terlebih dahulu dengan menggunakan perintah\n[Router I] configure terminal\nLalu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask dapat digunakan perintah int, encapsulation, dan ip address\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router I] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router Z] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\n end [eoc]",
+        "bot_reply": "Anda dapat mengaktifkan VLAN 33 pada Router Z dengan alamat IP 192.168.2.1, interface g0/0, dan subnet mask 255.255.255.0 dengan langkah pertama melakukan pemanggilan konfigurasi Router Z terlebih dahulu dengan menggunakan perintah\n[Router Z] configure terminal\nLalu berdasarkan interface, tipe vlan, alamat IP, dan subnet mask gunakan perintah int, encapsulation, dan ip address\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nRangkaian perintah diakhiri dengan end [eoc]. Perintah lengkapnya, yaitu:\n[Router Z] configure terminal\nint g0/0.33\nencapsulation dot1q 33\nip address 192.168.2.1 255.255.255.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router K] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]",
+        "bot_reply": "Untuk membuat rute pada Router K melalui interface g/0/0/0 menuju jaringan lokal dengan IP 192.168.0.1, subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router K terlebih dahulu dengan menggunakan perintah\n[Router K] configure terminal\nLalu dengan perintah ip route tambahkan alamat IP tujuan, subnet mask, dan interface. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router K] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\nend [eoc]"
+    },
+    {
+        "commands": "[Router K] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]",
+        "bot_reply": "Untuk mengkonfigurasi rute pada Router K untuk jaringan lokal dengan alamat IP 192.168.0.1 dan subnet mask 255.255.255.0, Anda harus mulai dengan mengakses mode konfigurasi menggunakan perintah:\n[Router K] configure terminal\nSelanjutnya, tambahkan alamat IP tujuan, subnet mask, dan antarmuka menggunakan perintah `ip route`. Urutan perintah diakhiri dengan yang berikut:\nip route 192.168.0.1 255.255.255.0 g0/0/0\nend [eoc]\nAnda dapat menjalankan serangkaian perintah seperti yang disebutkan di atas."
+    },
+    {
+        "commands": "[Router C] configure terminal\nip route 192.168.0.1 255.255.255.0 g0/0/0\n end [eoc]",
+        "bot_reply": "Untuk mengatur rute pada Router C untuk jaringan lokal dengan alamat IP 192.168.0.1 dan subnet mask 255.255.255.0, langkah pertama adalah masuk ke mode konfigurasi menggunakan perintah berikut:\n[Router C] configure terminal\nSelanjutnya, gunakan perintah `ip route` untuk menambahkan alamat IP tujuan, subnet mask, dan antarmuka. Akhir dari urutan perintah adalah sebagai berikut:\nip route 192.168.0.1 255.255.255.0 g0/0/0\nend [eoc]Anda dapat melaksanakan rangkaian perintah sebagaimana dijelaskan di atas."
+    },
+    {
+        "commands": "[Router X] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router X dan pendaftaran alamat IP 192.168.1.0 dan 192.168.2.0 pada perutean, perlu dinyatakan ppemanggilan konfigurasi Router X terlebih dahulu dengan perintah\n[Router X] configure terminal\nLalu tambahkan perintah router rip dan version 2 untuk menandakan akan digunakan protokol RIP versi 2\nrouter rip\nversion 2\nSetelah itu cantumkan alamat IP asal dan alamat IP tujuan dengan menggunakan perintah network. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router X] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router Y] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router Y dan mendaftarkan alamat IP 192.168.1.0 dan 192.168.2.0 pada perutean, langkah awal adalah memasuki mode konfigurasi pada Router Y dengan perintah:\n[Router Y] configure terminal\nSetelah itu, gunakan perintah `router rip` dan `version 2` untuk menandakan bahwa Anda akan menggunakan protokol RIP versi 2:\nrouter rip\nversion 2\nSelanjutnya, tambahkan alamat IP sumber dan tujuan dengan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Rangkaian perintah dapat dijalankan sebagai berikut:\n[Router Y] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\nend [eoc]\nAnda dapat melaksanakan rangkaian perintah seperti di atas."
+    },
+    {
+        "commands": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router B dan memasukkan alamat IP 192.168.1.0 dan 192.168.2.0 pada tabel routing, langkah awal adalah mengakses mode konfigurasi pada Router B menggunakan perintah berikut:\n[Router B] configure terminal\nAfterward, utilize the `router rip` and `version 2` commands to specify the use of RIP protocol version 2:\nrouter rip\nversion 2\nSelanjutnya, gabungkan alamat IP sumber dan tujuan menggunakan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Perintah-perintah tersebut dapat dijalankan sebagai berikut:\n[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.2.0\nend [eoc]\nAnda dapat menerapkan urutan perintah seperti yang ditunjukkan di atas."
+    },
+    {
+        "commands": "[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]",
+        "bot_reply": "Untuk membuat rute pada Router B melalui interface g/1/0/0 menuju jaringan lokal dengan IP 192.168.3.0, subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router B terlebih dahulu dengan menggunakan perintah\n[Router B] configure terminal\nLalu dengan perintah ip route tambahkan alamat IP tujuan, subnet mask, dan interface. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router B] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\nend [eoc]"
+    },
+    {
+        "commands": "[Router Y] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]",
+        "bot_reply": "Untuk mengkonfigurasi rute pada Router Y untuk jaringan lokal dengan alamat IP 192.168.3.0 dan subnet mask 255.255.255.0, Anda harus mulai dengan mengakses mode konfigurasi menggunakan perintah:\n[Router Y] configure terminal\nSelanjutnya, tambahkan alamat IP tujuan, subnet mask, dan antarmuka menggunakan perintah `ip route`. Urutan perintah diakhiri dengan yang berikut:\nip route 192.168.3.0 255.255.255.0 g1/0/0\nend [eoc]\nAnda dapat menjalankan serangkaian perintah seperti yang disebutkan di atas."
+    },
+    {
+        "commands": "[Router Y] configure terminal\nip route 192.168.3.0 255.255.255.0 g1/0/0\n end [eoc]",
+        "bot_reply": "Untuk mengatur rute pada Router Y untuk jaringan lokal dengan alamat IP 192.168.3.0 dan subnet mask 255.255.255.0, langkah pertama adalah masuk ke mode konfigurasi menggunakan perintah berikut:\n[Router Y] configure terminal\nSelanjutnya, gunakan perintah `ip route` untuk menambahkan alamat IP tujuan, subnet mask, dan antarmuka. Akhir dari urutan perintah adalah sebagai berikut:\nip route 192.168.3.0 255.255.255.0 g1/0/0\nend [eoc]Anda dapat melaksanakan rangkaian perintah sebagaimana dijelaskan di atas."
+    },
+    {
+        "commands": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router B dan pendaftaran alamat IP 192.168.0.1 dan 192.168.2.0 pada perutean, perlu dinyatakan ppemanggilan konfigurasi Router B terlebih dahulu dengan perintah\n[Router B] configure terminal\nLalu tambahkan perintah router rip dan version 2 untuk menandakan akan digunakan protokol RIP versi 2\nrouter rip\nversion 2\nSetelah itu cantumkan alamat IP asal dan alamat IP tujuan dengan menggunakan perintah network. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router Z] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router Z dan mendaftarkan alamat IP 192.168.0.1 dan 192.168.2.0 pada perutean, langkah awal adalah memasuki mode konfigurasi pada Router Z dengan perintah:\n[Router Z] configure terminal\nSetelah itu, gunakan perintah `router rip` dan `version 2` untuk menandakan bahwa Anda akan menggunakan protokol RIP versi 2:\nrouter rip\nversion 2\nSelanjutnya, tambahkan alamat IP sumber dan tujuan dengan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Rangkaian perintah dapat dijalankan sebagai berikut:\n[Router Z] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\nend [eoc]\nAnda dapat melaksanakan rangkaian perintah seperti di atas."
+    },
+    {
+        "commands": "[Router I] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router I dan memasukkan alamat IP 192.168.0.1 dan 192.168.2.0 pada tabel routing, langkah awal adalah mengakses mode konfigurasi pada Router I menggunakan perintah berikut:\n[Router I] configure terminal\nAfterward, utilize the `router rip` and `version 2` commands to specify the use of RIP protocol version 2:\nrouter rip\nversion 2\nSelanjutnya, gabungkan alamat IP sumber dan tujuan menggunakan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Perintah-perintah tersebut dapat dijalankan sebagai berikut:\n[Router I] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.2.0\nend [eoc]\nAnda dapat menerapkan urutan perintah seperti yang ditunjukkan di atas."
+    },
+    {
+        "commands": "[Router Z] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]",
+        "bot_reply": "Untuk membuat rute pada Router Z melalui interface g/1/1/0 menuju jaringan lokal dengan IP 192.168.2.0, subnet mask 255.255.255.0 kita perlu menyatakan pemanggilan konfigurasi Router Z terlebih dahulu dengan menggunakan perintah\n[Router Z] configure terminal\nLalu dengan perintah ip route tambahkan alamat IP tujuan, subnet mask, dan interface. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router Z] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\nend [eoc]"
+    },
+    {
+        "commands": "[Router A] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]",
+        "bot_reply": "Untuk mengkonfigurasi rute pada Router A untuk jaringan lokal dengan alamat IP 192.168.2.0 dan subnet mask 255.255.255.0, Anda harus mulai dengan mengakses mode konfigurasi menggunakan perintah:\n[Router A] configure terminal\nSelanjutnya, tambahkan alamat IP tujuan, subnet mask, dan antarmuka menggunakan perintah `ip route`. Urutan perintah diakhiri dengan yang berikut:\nip route 192.168.1.0 255.255.255.0 g1/1/0\nend [eoc]\nAnda dapat menjalankan serangkaian perintah seperti yang disebutkan di atas."
+    },
+    {
+        "commands": "[Router B] configure terminal\nip route 192.168.2.0 255.255.255.0 g1/1/0\n end [eoc]",
+        "bot_reply": "Untuk mengatur rute pada Router B untuk jaringan lokal dengan alamat IP 192.168.2.0 dan subnet mask 255.255.255.0, langkah pertama adalah masuk ke mode konfigurasi menggunakan perintah berikut:\n[Router B] configure terminal\nSelanjutnya, gunakan perintah `ip route` untuk menambahkan alamat IP tujuan, subnet mask, dan antarmuka. Akhir dari urutan perintah adalah sebagai berikut:\nip route 192.168.2.0 255.255.255.0 g1/1/0\nend [eoc]Anda dapat melaksanakan rangkaian perintah sebagaimana dijelaskan di atas."
+    },
+    {
+        "commands": "[Router K] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router K dan pendaftaran alamat IP 192.168.0.1 dan 192.168.3.0 pada perutean, perlu dinyatakan ppemanggilan konfigurasi Router K terlebih dahulu dengan perintah\n[Router K] configure terminal\nLalu tambahkan perintah router rip dan version 2 untuk menandakan akan digunakan protokol RIP versi 2\nrouter rip\nversion 2\nSetelah itu cantumkan alamat IP asal dan alamat IP tujuan dengan menggunakan perintah network. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router K] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router G] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router G dan mendaftarkan alamat IP 192.168.0.1 dan 192.168.3.0 pada perutean, langkah awal adalah memasuki mode konfigurasi pada Router G dengan perintah:\n[Router G] configure terminal\nSetelah itu, gunakan perintah `router rip` dan `version 2` untuk menandakan bahwa Anda akan menggunakan protokol RIP versi 2:\nrouter rip\nversion 2\nSelanjutnya, tambahkan alamat IP sumber dan tujuan dengan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Rangkaian perintah dapat dijalankan sebagai berikut:\n[Router G] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\nend [eoc]\nAnda dapat melaksanakan rangkaian perintah seperti di atas."
+    },
+    {
+        "commands": "[Router I] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router I dan memasukkan alamat IP 192.168.0.1 dan 192.168.3.0 pada tabel routing, langkah awal adalah mengakses mode konfigurasi pada Router I menggunakan perintah berikut:\n[Router I] configure terminal\nAfterward, utilize the `router rip` and `version 2` commands to specify the use of RIP protocol version 2:\nrouter rip\nversion 2\nSelanjutnya, gabungkan alamat IP sumber dan tujuan menggunakan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Perintah-perintah tersebut dapat dijalankan sebagai berikut:\n[Router I] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.0.1\nnetwork 192.168.3.0\nend [eoc]\nAnda dapat menerapkan urutan perintah seperti yang ditunjukkan di atas."
+    },
+    {
+        "commands": "[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router B dan pendaftaran alamat IP 192.168.1.0 dan 192.168.3.0 pada perutean, perlu dinyatakan ppemanggilan konfigurasi Router B terlebih dahulu dengan perintah\n[Router B] configure terminal\nLalu tambahkan perintah router rip dan version 2 untuk menandakan akan digunakan protokol RIP versi 2\nrouter rip\nversion 2\nSetelah itu cantumkan alamat IP asal dan alamat IP tujuan dengan menggunakan perintah network. Rangkaian perintah diakhiri dengan end [eoc]. Rangkaian perintah dapat dilakukan sebagai berikut:\n[Router B] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\nend [eoc]"
+    },
+    {
+        "commands": "[Router G] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router G dan mendaftarkan alamat IP 192.168.1.0 dan 192.168.3.0 pada perutean, langkah awal adalah memasuki mode konfigurasi pada Router G dengan perintah:\n[Router G] configure terminal\nSetelah itu, gunakan perintah `router rip` dan `version 2` untuk menandakan bahwa Anda akan menggunakan protokol RIP versi 2:\nrouter rip\nversion 2\nSelanjutnya, tambahkan alamat IP sumber dan tujuan dengan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Rangkaian perintah dapat dijalankan sebagai berikut:\n[Router G] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\nend [eoc]\nAnda dapat melaksanakan rangkaian perintah seperti di atas."
+    },
+    {
+        "commands": "[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\n end [eoc]",
+        "bot_reply": "Untuk mengaktifkan protokol RIP versi 2 pada Router A dan memasukkan alamat IP 192.168.1.0 dan 192.168.3.0 pada tabel routing, langkah awal adalah mengakses mode konfigurasi pada Router A menggunakan perintah berikut:\n[Router A] configure terminal\nAfterward, utilize the `router rip` and `version 2` commands to specify the use of RIP protocol version 2:\nrouter rip\nversion 2\nSelanjutnya, gabungkan alamat IP sumber dan tujuan menggunakan perintah `network`. Urutan perintah diakhiri dengan `end [eoc]`. Perintah-perintah tersebut dapat dijalankan sebagai berikut:\n[Router A] configure terminal\nrouter rip\nversion 2\nnetwork 192.168.1.0\nnetwork 192.168.3.0\nend [eoc]\nAnda dapat menerapkan urutan perintah seperti yang ditunjukkan di atas."
+    }
+]
